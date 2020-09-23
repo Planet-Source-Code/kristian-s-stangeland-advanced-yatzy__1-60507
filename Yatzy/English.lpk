@@ -1,0 +1,70 @@
+; Created at 18.04.2005, by Kristian.S.Stangeland
+; /////////////////////////////////////////////////////////
+
+[frmChat]
+Caption = "Chat"
+cmdSend.Caption = "&Send"
+
+[frmDebug]
+Caption = "Debug"
+
+[frmAdd]
+Caption = "Add element"
+cmdCancel.Caption = "&Cancel"
+cmdOK.Caption = "&OK"
+lblCode.Caption = "&Code:"
+lblName.Caption = "&Name:"
+lblRegion.Caption = "&Region:"
+
+[frmGameType]
+Caption = "Edit game type"
+cmdOK.Caption = "&Ok"
+cmdCancel.Caption = "&Cancel"
+cmdAdd.Caption = "&Add"
+cmdEdit.Caption = "&Edit"
+
+[frmMain]
+Caption = "Yatzy"
+cmdThrow.Caption = "Throw (3)"
+
+[frmNetGame]
+Caption = "Net game"
+frameServer.Caption = "&Server:"
+cmdRemovePlayer.Caption = "&Remove player"
+cmdKickPlayer.Caption = "&Kick player"
+cmdAddPlayer.Caption = "&Add player"
+lblPlayers.Caption = "&Players:"
+lblClients.Caption = "&Clients:"
+frameStart.Caption = "S&tart:"
+cmdStart.Caption = "&Start"
+cmdConnect.Caption = "&Connect"
+cmdListen.Caption = "&Listen"
+lblPort.Caption = "&Port:"
+lblHostname.Caption = "&Host name:"
+lblName.Caption = "&Name:"
+
+[frmPlayers]
+Caption = "Start game"
+cmdClear.Caption = "&Clear players"
+cmdStartNet.Caption = "Start &net game"
+cmdStart.Caption = "&Start local game"
+cmdAdd.Caption = "&Add player"
+cmdAddType.Caption = "&Add type"
+cmdEditType.Caption = "&Edit type"
+
+[Constants]
+DoNotSaveThrows = "Don't save thows"
+SaveThrow = "Save throws"
+MorePlayerNeeded = "There must be at least two players"
+PlayerUnique = "The player name must be unique"
+CannotKick = "Cannot kick this player"
+WritePlayerName = "Write the name of the new player"
+CannotBeEmpty = "Your name cannot be empty. Please write a name."
+NameError = "Name error"
+MadeBy = "Made by"
+Author = "Author"
+Congratulations = "Congratulations"
+PlayerWon = "you've won the game!"
+Throw = "&Throw"
+Start = "&Start"
+Restart = "&Restart"

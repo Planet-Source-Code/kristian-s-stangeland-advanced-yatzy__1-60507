@@ -1,0 +1,70 @@
+; Created at 18.04.2005, by Kristian.S.Stangeland
+; /////////////////////////////////////////////////////////
+
+[frmChat]
+Caption = "Nettprat"
+cmdSend.Caption = "&Send"
+
+[frmDebug]
+Caption = "Feilsøking"
+
+[frmAdd]
+Caption = "Legg til element"
+cmdCancel.Caption = "&Avbryt"
+cmdOK.Caption = "&Ok"
+lblCode.Caption = "&Kode:"
+lblName.Caption = "&Navn:"
+lblRegion.Caption = "&Region:"
+
+[frmGameType]
+Caption = "Endre spilltype"
+cmdOK.Caption = "&Ok"
+cmdCancel.Caption = "&Avbryt"
+cmdAdd.Caption = "&Legg til"
+cmdEdit.Caption = "&Endre"
+
+[frmMain]
+Caption = "Yatzy"
+cmdThrow.Caption = "Kast (3)"
+
+[frmNetGame]
+Caption = "Nettspill"
+frameServer.Caption = "&Server:"
+cmdRemovePlayer.Caption = "&Slett spiller"
+cmdKickPlayer.Caption = "&Suspender spiller"
+cmdAddPlayer.Caption = "&Legg til spiller"
+lblPlayers.Caption = "&Spillere:"
+lblClients.Caption = "&Klienter:"
+frameStart.Caption = "S&tart:"
+cmdStart.Caption = "&Start"
+cmdConnect.Caption = "&Koble til"
+cmdListen.Caption = "&Lytt"
+lblPort.Caption = "&Port:"
+lblHostname.Caption = "&Vertsnavn:"
+lblName.Caption = "&Navn:"
+
+[frmPlayers]
+Caption = "Start spill"
+cmdClear.Caption = "&Fjern spillere"
+cmdStartNet.Caption = "Start &nettspill"
+cmdStart.Caption = "&Start lokalt spill"
+cmdAdd.Caption = "&Legg til spiller"
+cmdAddType.Caption = "&Legg til spilltype"
+cmdEditType.Caption = "&Endre spilltype"
+
+[Constants]
+DoNotSaveThrows = "Ikke lagre kast"
+SaveThrow = "Lagre kast"
+MorePlayerNeeded = "Det må være minst to spillere"
+PlayerUnique = "Spillnavnet må være unikt"
+CannotKick = "Kan ikke suspendere spiller"
+WritePlayerName = "Skriv navnet på den nye spilleren"
+CannotBeEmpty = "Et navn kan ikke være en tom streng. Forsøk igjen."
+NameError = "Feil ved navngiving"
+MadeBy = "Laget av"
+Author = "Forfatter"
+Congratulations = "Gratulerer"
+PlayerWon = "du har vunnet spillet!"
+Throw = "&Kast"
+Start = "&Start"
+Restart = "&Omstart"
